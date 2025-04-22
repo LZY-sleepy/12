@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/mainTestGurobi.dir/home/lzy/discrete_algorithm/test1/mainTestGurobi.o -o mainTestGurobi   -L/opt/gurobi1201/linux64/lib  -Wl,-rpath,/opt/gurobi1201/linux64/lib /opt/gurobi1201/linux64/lib/libgurobi_c++.a -lgurobi120 

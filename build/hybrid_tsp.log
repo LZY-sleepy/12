@@ -1,0 +1,81 @@
+
+Gurobi 12.0.1 (linux64, C++) logging started Sun Apr  6 20:03:12 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2642819
+Set parameter LogFile to value "hybrid_tsp.log"
+Academic license - for non-commercial use only - expires 2026-03-27
+Set parameter TimeLimit to value 3600
+Set parameter LazyConstraints to value 1
+Set parameter Threads to value 0
+Gurobi Optimizer version 12.0.1 build v12.0.1rc0 (linux64 - "Ubuntu 22.04.5 LTS")
+
+CPU model: AMD Ryzen 9 5900HX with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Non-default parameters:
+TimeLimit  3600
+LazyConstraints  1
+
+Optimize a model with 1150 rows, 330625 columns and 661250 nonzeros
+Model fingerprint: 0x0765a2fa
+Variable types: 0 continuous, 330625 integer (330625 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [2e+00, 5e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 2e+00]
+
+Warning: Completing partial solution with 330050 unfixed non-continuous variables out of 330625
+User MIP start produced solution with objective 9009.04 (1.10s)
+Loaded user MIP start with objective 9009.04
+Processed MIP start in 1.12 seconds (1.19 work units)
+
+Presolve time: 0.32s
+Presolved: 1150 rows, 330625 columns, 661250 nonzeros
+Variable types: 0 continuous, 330625 integer (330625 binary)
+Root relaxation presolved: 1150 rows, 330625 columns, 661250 nonzeros
+
+Deterministic concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Root barrier log...
+
+Ordering time: 0.01s
+
+Barrier statistics:
+ AA' NZ     : 1.650e+05
+ Factor NZ  : 1.656e+05 (roughly 70 MB of memory)
+ Factor Ops : 6.354e+07 (less than 1 second per iteration)
+ Threads    : 6
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   4.63558227e+07 -1.53659264e+08  4.07e+02 1.71e-13  1.12e+03     2s
+   1   1.86817481e+06 -2.74464010e+07  2.12e+01 9.09e-13  1.02e+02     2s
+
+Barrier performed 1 iterations in 1.95 seconds (2.29 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+Concurrent spin time: 0.05s
+
+Solved with dual simplex
+
+Use crossover to convert LP symmetric solution to basic solution...
+
+Root relaxation: objective 6.020453e+03, 726 iterations, 0.49 seconds (0.36 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    6020.4533404 6020.45334  0.00%     -    2s
+
+Explored 1 nodes (726 simplex iterations) in 2.01 seconds (2.31 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 6020.45 9009.04 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.020453340366e+03, best bound 6.020453340366e+03, gap 0.0000%
+
+User-callback calls 327, time in user-callback 0.01 sec

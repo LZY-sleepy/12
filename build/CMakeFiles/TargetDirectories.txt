@@ -1,0 +1,5 @@
+/home/lzy/discrete_algorithm/test1/build/CMakeFiles/tsp3.dir
+/home/lzy/discrete_algorithm/test1/build/CMakeFiles/tsp2.dir
+/home/lzy/discrete_algorithm/test1/build/CMakeFiles/tsp1.dir
+/home/lzy/discrete_algorithm/test1/build/CMakeFiles/edit_cache.dir
+/home/lzy/discrete_algorithm/test1/build/CMakeFiles/rebuild_cache.dir

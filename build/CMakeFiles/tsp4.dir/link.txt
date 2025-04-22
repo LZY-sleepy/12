@@ -1,0 +1,1 @@
+/usr/bin/c++  -fopenmp -rdynamic CMakeFiles/tsp4.dir/home/lzy/discrete_algorithm/test1/tsp4.o -o tsp4   -L/opt/gurobi1201/linux64/lib  -Wl,-rpath,/opt/gurobi1201/linux64/lib /opt/gurobi1201/linux64/lib/libgurobi_c++.a -lgurobi120 -lgomp -Wl,-Bstatic -lpthread -Wl,-Bdynamic 

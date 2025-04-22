@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "ostream": "cpp",
+        "*.tcc": "cpp"
+    },
+    "cmake.sourceDirectory": "/home/lzy/discrete_algorithm/test1/CMakeLists"
+}
